@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#f8fbff"><meta name="referrer" content="no-referrer"><title>Workspace · Azure Notes</title>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#f8fbff"><meta name="referrer" content="no-referrer"><title>Workspace · Azure Notes</title><link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='a' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop stop-color='%236bb9ff'/%3E%3Cstop offset='1' stop-color='%232c70ec'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='18' fill='url(%23a)'/%3E%3Cpath d='M21 15h18l7 8v25H21z' fill='white' fill-opacity='.94'/%3E%3Cpath d='M39 15v9h8' fill='%23bbd9ff'/%3E%3Cpath d='M27 33h13M27 39h11' stroke='%236499ef' stroke-width='3' stroke-linecap='round'/%3E%3Cpath d='m17 22 2.3 6.7L26 31l-6.7 2.3L17 40l-2.3-6.7L8 31l6.7-2.3Z' fill='%23f7d972'/%3E%3C/svg%3E">
 <style id="tailwind-generated">:root,:host{--color-blue-50:#eff6ff;--color-blue-600:#2563eb;--spacing:.25rem;--radius-xl:.75rem;}.relative{position:relative;}.mx-auto{margin-inline:auto;}.flex{display:flex;}.grid{display:grid;}.hidden{display:none;}.inline-flex{display:inline-flex;}.items-center{align-items:center;}.justify-between{justify-content:space-between;}.gap-2{gap:calc(var(--spacing) * 2);}.rounded-xl{border-radius:var(--radius-xl);}.bg-blue-50{background-color:var(--color-blue-50);}.p-4{padding:calc(var(--spacing) * 4);}.text-blue-600{color:var(--color-blue-600);}</style>
 <style>
 :root{--bg:#f8fbff;--surface:#fff;--blue:#3b82f6;--blue2:#60a5fa;--bluewash:#eff6ff;--ink:#14233b;--muted:#64748b;--muted2:#91a3bb;--line:#e2ecf8;--shadow:0 8px 30px rgba(35,83,139,.045);--radius:18px;--ease:cubic-bezier(.2,.8,.2,1);font-family:Inter,"Plus Jakarta Sans",ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}
@@ -14,7 +14,245 @@
 @media(max-width:720px){.app,.app.collapsed{display:block}.sidebar{position:fixed;transform:translateX(-110%);width:265px;height:100dvh;transition:transform .2s var(--ease);box-shadow:16px 0 60px #244b7b20;padding:25px 17px;z-index:90}.app.drawer-open .sidebar{transform:translateX(0)}.sidebar .logo-text,.sidebar .nav-group-label,.sidebar .nav-link .label,.sidebar .nav-link .count,.sidebar .side-tip,.sidebar .side-profile .profile-text{display:initial}.sidebar .nav-link{justify-content:flex-start;padding-left:13px;padding-right:13px}.sidebar .side-profile{justify-content:flex-start}.mobile-nav-backdrop{position:fixed;inset:0;background:#10284677;z-index:85}.app.drawer-open .mobile-nav-backdrop{display:block}.topbar{height:65px;padding:0 15px}.top-left,.top-right{gap:7px}.crumb{font-size:11px}.top-search{width:37px;height:37px;min-width:37px;padding:0;display:grid;place-items:center}.top-search span,.top-search kbd{display:none}.top-right .btn-primary span{display:none}.top-right .btn-primary{padding:10px 11px}.top-right .avatar{display:none}.content{min-height:calc(100vh - 65px);padding:20px 14px 65px}.hero{padding:29px 23px;border-radius:17px;min-height:185px}.hero h1{font-size:30px}.hero p{font-size:11px}.grid-stats{gap:10px}.stat{padding:17px 14px}.stat strong{font-size:25px}.overview-grid,.settings-grid,.organizer,.insight-grid{grid-template-columns:minmax(0,1fr)}.cat-grid{grid-template-columns:1fr 1fr;gap:10px}.cat-card{padding:17px}.quick-cat{grid-template-columns:1fr 1fr}.page-head h1{font-size:23px}.page-head{gap:9px}.workspace{grid-template-columns:1fr;gap:0;min-height:calc(100dvh - 135px)}.workspace .list-pane{max-height:none;min-height:calc(100dvh - 140px)}.workspace .editor-pane{display:none}.workspace.editing .list-pane{display:none}.workspace.editing .editor-pane{display:flex;max-height:none;min-height:calc(100dvh - 135px);border-radius:13px}.editor-headline{padding-top:25px}.title-input{font-size:29px}.editor-toolbar{position:sticky;top:0;background:#fff;z-index:2}.editor-body{min-height:55vh}.edit-textarea{min-height:55vh;padding:22px 20px 80px}.editor-preview{padding:22px 20px 80px}.editor-focused .workspace{grid-template-columns:1fr}.editor-focused .workspace .editor-pane{display:flex}.editor-top{padding:10px 11px}.editor-location{max-width:155px}.editor-actions{gap:0}.editor-actions .icon-btn{width:32px}.tree{position:static;max-height:340px}.note-date{font-size:9px}.topbar{z-index:40}.toolbar{gap:7px}.toolbar .select{min-width:120px}.toast-stack{right:12px;bottom:12px}.modal{max-width:95vw}.modal-header{padding:20px 20px 10px}.modal-inner{padding:8px 20px 18px}.modal-footer{padding:12px 20px}}
 @media(max-width:390px){.cat-grid{grid-template-columns:1fr}.hero h1{font-size:26px}.page-head{flex-wrap:wrap}.topbar .crumb{max-width:100px}.card.pad{padding:17px}.stat{padding:15px 12px}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;transition-duration:.001ms!important;animation-duration:.001ms!important}}
-</style><script defer src="config.js"></script></head>
+</style><script defer src="config.js"></script><style id="azure-finora-refinement">
+/* AZURE NOTES — FINORA-INSPIRED INTERFACE REFINEMENT
+   Does not restyle the sidebar, footer or their child components. */
+:root{
+ --azure-royal:#2675eb;--azure-mid:#4e9fff;--azure-sky:#88c4ff;
+ --azure-powder:#eaf5ff;--azure-ink:#15253f;--azure-border:#dfeaf8;
+ --azure-glow:0 18px 60px rgba(45,113,211,.095);
+}
+body{background:linear-gradient(135deg,#f7fbff 0%,#f2f8ff 51%,#fcfdff 100%)}
+.main-wrap{background:transparent}
+.main-wrap .content{max-width:1640px;padding:30px clamp(18px,2.55vw,44px) 86px}
+.topbar{height:74px;background:rgba(255,255,255,.91);border-bottom:1px solid rgba(221,234,250,.9)}
+/* Feature-level editorial hero, separate from the existing left navigation */
+.content>.hero,
+.content>.page-head{
+ position:relative;isolation:isolate;overflow:hidden;min-width:0;
+ border:1px solid rgba(104,171,248,.24);
+ border-radius:26px;
+ background:linear-gradient(118deg,#ecf6ff 0%,#f9fcff 43%,#d8ecff 100%);
+ box-shadow:0 26px 76px rgba(37,102,197,.10),inset 0 1px rgba(255,255,255,.98);
+ padding:36px clamp(24px,3vw,46px);
+ margin-bottom:28px;
+}
+.content>.page-head{min-height:228px;align-items:center;gap:24px}
+.content>.hero{min-height:300px;gap:30px}
+.content>.hero:before,.content>.page-head:before{
+ content:'';position:absolute;z-index:-1;
+ width:520px;height:520px;border:1px solid rgba(90,159,238,.18);
+ right:-145px;top:-245px;border-radius:50%;pointer-events:none;
+ box-shadow:0 0 0 78px rgba(255,255,255,.18),0 0 0 166px rgba(105,173,251,.055);
+}
+.content>.hero:after,.content>.page-head:after{
+ content:'';position:absolute;z-index:-1;right:4%;bottom:-50%;
+ width:400px;height:320px;pointer-events:none;
+ background:radial-gradient(ellipse,rgba(131,191,252,.30),transparent 73%);
+}
+.content>.hero h1,.content>.page-head h1{
+ font-size:clamp(29px,3.1vw,46px);line-height:1.12;letter-spacing:-.055em;
+ color:#162943;font-weight:860;max-width:740px;overflow-wrap:anywhere;
+}
+.content>.hero h1 em{color:#307deb}
+.content>.hero p:not(.eyebrow),.content>.page-head p:not(.eyebrow){
+ max-width:640px;font-size:13px;line-height:1.85;color:#7188a9;margin-top:12px;
+}
+.content>.hero .eyebrow,.content>.page-head .eyebrow{
+ display:inline-flex;align-items:center;gap:10px;letter-spacing:.16em;font-size:10px;
+ color:#2b78e0;font-weight:850;margin-bottom:17px;
+}
+.content>.hero .eyebrow:before,.content>.page-head .eyebrow:before{
+ content:'✦';display:grid;place-items:center;width:26px;height:26px;
+ border:1px solid #cce3ff;border-radius:9px;background:rgba(255,255,255,.75);font-size:14px;letter-spacing:0;
+ box-shadow:0 6px 14px rgba(56,120,205,.08);
+}
+.content>.page-head:has(.btn):not(.hero)>.btn{
+ position:relative;z-index:2;flex-shrink:0;box-shadow:0 12px 24px rgba(31,107,220,.17);align-self:center;
+}
+.content>.hero .btn,.content>.page-head .btn{min-height:43px}
+.content>.hero-art{width:240px;height:195px;transform:rotate(-3deg)}
+.content>.hero .art-paper{height:162px;width:157px;right:26px;top:10px;border-radius:22px;
+ border-color:#cbdff6;box-shadow:0 25px 45px rgba(33,98,195,.15)}
+.content>.hero .art-float{box-shadow:0 15px 27px rgba(44,117,215,.17)}
+/* Finora-like asymmetric performance cards and information surfaces */
+.grid-stats{gap:16px;margin:20px 0 23px}
+.stat{position:relative;overflow:hidden;border-radius:23px;padding:24px 23px 23px;
+ background:linear-gradient(145deg,#fff 0%,#fafcff 100%);
+ border:1px solid #e2ecfa;box-shadow:var(--azure-glow);min-height:151px;
+ transition:transform .20s ease,box-shadow .20s ease,border-color .20s ease}
+.stat:before{content:'';position:absolute;left:0;top:0;width:63px;height:3px;
+ background:linear-gradient(90deg,#2e7af0,#8ccbff);border-radius:0 0 6px 0}
+.stat:nth-child(2){background:linear-gradient(137deg,#fff,#f3f9ff)}
+.stat:nth-child(3){background:linear-gradient(137deg,#fff,#edf7ff)}
+.stat:nth-child(4){background:linear-gradient(137deg,#fff,#f5f8ff)}
+.stat:hover{transform:translateY(-3px);border-color:#c6dffc;box-shadow:0 21px 57px #397acb1b}
+.stat span:not(.stat-icon){letter-spacing:.035em;text-transform:uppercase;font-size:10px;font-weight:800;color:#7f95b2}
+.stat strong{font-size:clamp(25px,2.6vw,36px);margin:16px 0 4px;color:#1c304f;line-height:1.15;overflow-wrap:anywhere}
+.stat small{line-height:1.5;color:#8a9cba;font-size:10px}
+.stat-icon{height:44px;width:44px;border:1px solid #d8eaff;border-radius:14px;background:linear-gradient(135deg,#edf6ff,#fff);color:#2777eb;box-shadow:0 8px 20px #398ff014}
+.stat-icon svg{width:21px;height:21px}
+.section-head{margin:36px 0 17px;align-items:end}
+.section-head h2{font-size:19px;font-weight:850;letter-spacing:-.04em;color:#193251}
+.section-head p{font-size:11px;color:#879cb8}
+.section-head h2:before{content:'';display:inline-block;width:4px;height:17px;background:linear-gradient(#2177eb,#73b8ff);border-radius:5px;margin-right:10px;vertical-align:-2px}
+.overview-grid{gap:22px;grid-template-columns:minmax(0,1.47fr) minmax(280px,.93fr)}
+.content .card:not(.side-tip){border:1px solid #e0ebfa;border-radius:22px;box-shadow:0 13px 48px rgba(42,97,165,.06);background:linear-gradient(180deg,#fff,#fcfdff)}
+.content .card.pad{padding:24px}
+.content .card-title{font-size:14px;color:#233654}
+.note-row{border-bottom:1px solid #edf3fb;border-radius:12px;padding:14px 8px;transition:background .16s ease,transform .16s ease}
+.note-row:hover{background:#f1f8ff;transform:translateX(2px)}
+.note-mark{background:linear-gradient(135deg,#e8f2ff,#f9fcff);color:#2e82ec;border:1px solid #dceafc;border-radius:12px}
+.cat-chip{border-radius:14px;transition:transform .18s ease,border-color .18s ease}
+.cat-chip:hover{transform:translateY(-2px);border-color:#c3defd}
+.cat-grid{gap:19px}
+.cat-card{border-radius:23px!important;padding:25px;min-height:238px;transition:transform .20s ease,box-shadow .20s ease,border-color .20s ease}
+.cat-card:hover{transform:translateY(-3px);box-shadow:0 20px 48px #397acb18!important}
+.cat-icon{border-radius:15px!important;width:52px;height:52px}
+.toolbar{background:rgba(255,255,255,.8);border:1px solid #e5eefb;border-radius:16px;padding:10px 16px;margin:0 0 20px}
+/* Buttons and input fields in the workspace, leave sidebar untouched */
+.main-wrap .btn{border-radius:12px;font-weight:760;transition:transform .16s,box-shadow .16s,border-color .16s,background .16s}
+.main-wrap .btn:hover{transform:translateY(-1px)}
+.main-wrap .btn-primary{background:linear-gradient(100deg,#2575eb,#4e9cff);border:1px solid #2f80f0;box-shadow:0 12px 22px #2778e52a;color:#fff}
+.main-wrap .btn-primary:hover{box-shadow:0 15px 29px #2778e544}
+.main-wrap .btn-soft{border-color:#cce3ff;background:linear-gradient(135deg,#f0f8ff,#fff);color:#236fd3}
+.main-wrap :where(.form-input,.select,.filter-field,input:not([type=checkbox]):not([type=radio]),textarea){min-width:0}
+.main-wrap .form-row{min-width:0;margin-bottom:17px}
+.main-wrap .form-row label{font-size:11px;font-weight:790;color:#314764;margin-bottom:9px}
+.main-wrap .form-input,.main-wrap .select{
+ border-radius:13px;min-height:47px;background:#fff;border:1px solid #dae7f7;
+ box-shadow:0 2px 2px rgba(31,86,149,.015);font-size:12px;color:#213654;
+ padding:12px 14px;outline:none;transition:border-color .16s,box-shadow .16s,background .16s}
+.main-wrap .form-input:hover,.main-wrap .select:hover{border-color:#bdd8fa}
+.main-wrap .form-input:focus,.main-wrap .select:focus{
+ background:#fff;border-color:#3986ed;box-shadow:0 0 0 4px rgba(71,148,247,.12)}
+.main-wrap .form-input:disabled{color:#8b9db7;background:#f5f8fc}
+.main-wrap .form-input::placeholder{color:#9eafc5}
+.main-wrap .filters .select{min-height:37px;padding:7px 10px}
+.main-wrap .filter-field{border-radius:12px;border-color:#dae8f9;background:#fbfdff}
+.main-wrap .filter-field:focus-within{border-color:#9bcaff;box-shadow:0 0 0 3px #eaf5ff}
+/* Shared modal shell redesigned like Finora's secure data editor */
+#modal.modal{max-width:min(750px,calc(100vw - 36px));width:100%;border-radius:27px;
+ box-shadow:0 40px 110px rgba(15,43,89,.32),0 5px 20px rgba(26,77,152,.10);
+ border:1px solid rgba(211,230,253,.76);max-height:min(92dvh,950px);
+}
+#modal::backdrop,#search-dialog::backdrop{background:rgba(17,32,59,.44);backdrop-filter:blur(5px)}
+#modal .modal-header{position:relative;isolation:isolate;overflow:hidden;min-height:165px;
+ display:flex;align-items:flex-end;gap:20px;padding:47px 36px 26px;
+ background:linear-gradient(109deg,#2779ed 0%,#4e9efe 67%,#85c2ff 120%);color:#fff}
+#modal .modal-header:before{content:'';position:absolute;right:-120px;top:-190px;width:420px;height:420px;
+ border-radius:50%;border:1px solid #ffffff55;box-shadow:0 0 0 60px #ffffff10,0 0 0 132px #ffffff0a;z-index:-1}
+#modal .modal-header:after{content:'AZURE NOTES  ·  PRIVATE WORKSPACE';position:absolute;left:36px;top:24px;
+ font-size:10px;letter-spacing:.16em;font-weight:850;color:#e7f4ff}
+#modal .modal-header h2{margin:0 48px 0 0;color:#fff;font-size:clamp(25px,3vw,31px);
+ letter-spacing:-.058em;font-weight:870;line-height:1.18;text-shadow:0 2px 16px #144f9e1a}
+#modal #modal-close{position:absolute;right:23px;top:23px;border:1px solid #ffffff66;
+ border-radius:11px;color:#fff;background:#ffffff20;width:40px;height:40px}
+#modal #modal-close:hover{background:#ffffff35;color:#fff}
+#modal .modal-inner{max-height:calc(min(92dvh,950px) - 258px);overflow:auto;padding:27px 36px 15px;background:#fff}
+#modal .modal-desc{font-size:12px;line-height:1.7;color:#7488a2;margin:0 0 24px}
+#modal .finora-form-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:20px;row-gap:6px}
+#modal .finora-form-grid .form-row:has(textarea){grid-column:1 / -1}
+#modal .finora-form-grid .form-row:only-child{grid-column:1 / -1}
+#modal .modal-footer{padding:17px 36px;background:#fbfdff;border-top:1px solid #e9f0fa;gap:11px}
+#modal .modal-footer .btn{min-height:45px;padding:10px 19px}
+#modal .modal-footer .btn-primary{background:linear-gradient(120deg,#2477eb,#58a7ff)}
+#modal textarea.form-input{min-height:82px}
+#modal .form-input:focus-visible{outline:0}
+#search-dialog{border-radius:24px;box-shadow:0 30px 90px #213f7440;border:1px solid #dfeafa}
+/* Refined notification system on both desktop and phone */
+.toast-stack{left:auto;right:24px;top:93px;bottom:auto;max-height:calc(100dvh - 106px);overflow-y:auto;align-items:stretch;gap:12px;padding:4px;max-width:min(430px,calc(100vw - 30px))}
+.toast{position:relative;overflow:hidden;min-width:290px;max-width:410px;
+ display:grid;grid-template-columns:40px minmax(0,1fr) 25px;align-items:center;gap:13px;
+ background:rgba(255,255,255,.98)!important;color:#1a304d!important;
+ border:1px solid #d7e8ff;border-radius:18px;padding:15px 14px;
+ box-shadow:0 19px 50px rgba(27,79,146,.16),0 1px 0 #fff inset;
+ animation:azToastIn .24s cubic-bezier(.2,.8,.2,1) both;
+ font-size:12px;line-height:1.5}
+.toast:after{content:'';position:absolute;left:0;bottom:0;width:100%;height:3px;
+ background:linear-gradient(90deg,#2981f3,#8acaff);transform-origin:left;animation:azToastDuration 5.5s linear forwards}
+.toast.warn{border-color:#ffd8e0;background:#fffafb!important}
+.toast.warn:after{background:linear-gradient(90deg,#e35177,#ffb3c5)}
+.toast>.az-toast-icon{width:40px;height:40px;border-radius:13px;background:#ecf6ff;
+ color:#2979e6;border:1px solid #d6e8ff;display:grid;place-items:center;font-size:19px}
+.toast.warn>.az-toast-icon{color:#cd3f69;background:#fff1f5;border-color:#ffd6e0}
+.toast .az-toast-copy strong{display:block;font-size:12px;line-height:1.3;margin-bottom:4px;color:#1b2e4c}
+.toast .az-toast-copy span{display:block;color:#7286a3;font-size:11px;line-height:1.5;overflow-wrap:anywhere}
+.toast button{margin:0!important;border:0;background:#f1f6fd;color:#758aa8;border-radius:9px;padding:4px;min-width:25px;height:27px}
+.toast button:hover{color:#246fda;background:#e6f2ff}
+@keyframes azToastIn{from{opacity:0;transform:translateY(-12px) scale(.965)}to{opacity:1;transform:translateY(0) scale(1)}}
+@keyframes azToastDuration{to{transform:scaleX(0)}}
+/* Smooth but lightweight: no large continuous blur animations */
+.content .card,.content .stat{will-change:auto}
+.content>.page-head,.content>.hero{animation:azHeroEnter .32s cubic-bezier(.2,.8,.2,1) both}
+@keyframes azHeroEnter{from{opacity:.82;transform:translateY(5px)}to{opacity:1;transform:translateY(0)}}
+@media (max-width:1240px){
+ .overview-grid{grid-template-columns:minmax(0,1.28fr) minmax(270px,1fr)}
+ #modal.modal{max-width:min(720px,calc(100vw - 32px))}
+}
+@media (max-width:990px){
+ .content>.page-head{min-height:205px}
+ .content>.hero{min-height:260px}
+ .content>.hero-art{width:180px;transform:scale(.9)}
+ .stat{min-height:138px;padding:19px}
+}
+@media (max-width:720px){
+ .main-wrap .content{padding:19px 15px 80px}
+ .content>.hero,.content>.page-head{padding:25px 21px;border-radius:21px;margin-bottom:22px;min-height:0}
+ .content>.hero{min-height:214px}
+ .content>.page-head{flex-wrap:wrap;align-items:center;gap:16px}
+ .content>.hero h1,.content>.page-head h1{font-size:clamp(27px,7vw,36px)}
+ .content>.hero p:not(.eyebrow),.content>.page-head p:not(.eyebrow){font-size:12px;line-height:1.75}
+ .content>.hero-art{display:none}
+ .content>.page-head .btn{margin-top:0;max-width:100%}
+ .grid-stats{gap:10px;margin:15px 0 19px;grid-template-columns:repeat(2,minmax(0,1fr))}
+ .stat{min-height:129px;border-radius:17px;padding:16px}
+ .stat strong{font-size:27px}
+ .stat-icon{height:35px;width:35px;border-radius:11px}
+ .stat-icon svg{width:18px;height:18px}
+ .section-head{margin:24px 0 13px;flex-wrap:wrap}
+ .section-head h2{font-size:17px}
+ .overview-grid{display:block}
+ .content .card.pad{padding:18px}
+ .content .card{border-radius:19px}
+ .cat-grid{gap:12px}
+ .cat-card{padding:19px;min-height:0}
+ .toast-stack{right:12px;left:12px;top:70px;max-width:unset}
+ .toast{min-width:0;max-width:none}
+ #modal.modal{border-radius:23px;max-height:calc(100dvh - 24px);max-width:calc(100vw - 24px)}
+ #modal .modal-header{min-height:130px;padding:41px 22px 20px}
+ #modal .modal-header:after{left:22px;top:19px;font-size:8px}
+ #modal .modal-header h2{font-size:25px}
+ #modal #modal-close{right:17px;top:15px}
+ #modal .modal-inner{padding:22px 21px 10px;max-height:calc(100dvh - 208px)}
+ #modal .modal-footer{padding:14px 20px}
+ #modal .finora-form-grid{grid-template-columns:minmax(0,1fr);gap:0}
+ #modal .finora-form-grid .form-row{grid-column:1/-1}
+}
+@media (max-width:375px){
+ .main-wrap .content{padding-left:11px;padding-right:11px}
+ .content>.hero,.content>.page-head{padding:23px 17px}
+ .grid-stats{gap:9px}
+ .stat{padding:13px}
+ .stat strong{font-size:25px}
+}
+@media (max-height:680px){#modal .modal-header{min-height:108px;padding-top:38px;padding-bottom:14px}#modal .modal-inner{max-height:calc(100dvh - 175px)}}
+@media (prefers-reduced-motion:reduce){.toast,.toast:after,.content>.page-head,.content>.hero{animation:none!important}.stat,.cat-card,.note-row{transition:none!important}}
+
+
+/* Precision refinements: full-width primary field + premium native color picker. */
+@media(min-width:721px){#modal .finora-form-grid>.form-row:first-child{grid-column:1/-1}}
+#modal input[type="color"].form-input{height:47px;min-height:47px;padding:5px 7px;cursor:pointer;overflow:hidden}
+#modal input[type="color"].form-input::-webkit-color-swatch-wrapper{padding:1px}
+#modal input[type="color"].form-input::-webkit-color-swatch{border-radius:9px;border:1px solid #cddff4}
+#modal input[type="color"].form-input::-moz-color-swatch{border-radius:9px;border:1px solid #cddff4}
+
+/* Keep overview counters and headline words visually separate on narrow screens. */
+.content>.hero h1{letter-spacing:-.043em}
+.content>.hero h1 em{margin-left:.10em;margin-right:.11em}
+.overview-grid .card.pad span:has(>small){display:flex!important;gap:9px;align-items:baseline;flex-wrap:wrap}
+.overview-grid .card.pad span:has(>small)>small{display:inline-block;margin-left:0!important;white-space:nowrap;font-size:11px!important}
+</style></head>
 <body>
 <div id="app" class="app relative"><aside class="sidebar" id="sidebar"><a class="logo" href="#overview" aria-label="Azure Notes overview"><span class="logo-mark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M9 8h6M9 12h6M9 16h4"/></svg></span><span class="logo-text">azure<span class="blue">notes.</span></span></a><div id="nav"></div><div class="side-spacer"></div><div class="side-tip"><strong>✦ Your ideas matter.</strong><p>Little thoughts become great things when you give them a home.</p></div><div class="side-profile"><span class="avatar" id="side-avatar">AN</span><div class="profile-text"><strong id="side-name">My Workspace</strong><small id="side-email">Loading your account…</small></div></div></aside><div class="mobile-nav-backdrop" id="drawer-backdrop"></div>
 <div class="main-wrap"><header class="topbar items-center justify-between"><div class="top-left"><button class="icon-btn" id="toggle-sidebar" aria-label="Toggle navigation"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M9 4v16"/></svg></button><div class="crumb"><span>Workspace</span> &nbsp; / &nbsp; <strong id="route-name">Overview</strong></div></div><div class="top-right"><button class="top-search" id="open-search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 4.5 4.5"/></svg><span>Search everything…</span><kbd>⌘ K</kbd></button><span class="sync-label" id="sync-label">Sync ready</span><button class="btn btn-primary" id="quick-create"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg><span>New note</span></button><button class="avatar" id="profile-button" aria-label="Account settings">AN</button></div></header><main class="content relative" id="content" aria-live="polite"><div class="hero"><div><div class="eyebrow">YOUR PERSONAL KNOWLEDGE SPACE</div><h1>Making room for <em>better thoughts.</em></h1><p>Organizing your notes and preparing your workspace.</p></div><div class="hero-art"><div class="art-paper"><i></i><i></i><i></i></div><div class="art-float">✦</div></div></div><div class="grid-stats"><div class="stat"><div class="skeleton" style="width:80px;height:9px"></div><div class="skeleton" style="width:65px;height:27px;margin-top:17px"></div></div><div class="stat"><div class="skeleton" style="width:80px;height:9px"></div><div class="skeleton" style="width:65px;height:27px;margin-top:17px"></div></div></div></main></div></div>
@@ -38,7 +276,18 @@ const subs=()=>S.ws.subchapters.filter(x=>x.status==='active'&&chapters().some(h
 const isYes=x=>x===true||x==='true'||x===1;
 const shown=n=>!isYes(n.is_deleted)&&!isYes(n.is_archived)&&cats().some(c=>c.category_id===n.category_id)&&(!n.chapter_id||chapters().some(c=>c.chapter_id===n.chapter_id))&&(!n.subchapter_id||subs().some(s=>s.subchapter_id===n.subchapter_id));
 const date=s=>window.AZURE.Utils.date(s),ago=s=>window.AZURE.Utils.ago(s);
-function toast(message,error=false){const stack=$('#toast-stack'),el=document.createElement('div');el.className='toast'+(error?' warn':'');const t=document.createElement('span');t.textContent=message;const b=document.createElement('button');b.textContent='✕';b.setAttribute('aria-label','Dismiss notification');b.onclick=()=>el.remove();el.append(t,b);stack.append(el);setTimeout(()=>el.remove(),5500);}
+function toast(message,error=false){
+ const stack=$('#toast-stack'),el=document.createElement('div');
+ el.className='toast'+(error?' warn':'');el.setAttribute('role',error?'alert':'status');
+ const symbol=document.createElement('span');symbol.className='az-toast-icon';symbol.textContent=error?'!':'✓';symbol.setAttribute('aria-hidden','true');
+ const copy=document.createElement('div');copy.className='az-toast-copy';
+ const title=document.createElement('strong');title.textContent=error?'Action needs attention':'Workspace updated';
+ const desc=document.createElement('span');desc.textContent=String(message??'');copy.append(title,desc);
+ const close=document.createElement('button');close.type='button';close.textContent='×';close.setAttribute('aria-label','Dismiss notification');close.onclick=()=>el.remove();
+ el.append(symbol,copy,close);stack.prepend(el);
+ while(stack.children.length>3)stack.lastElementChild.remove();
+ const handle=setTimeout(()=>el.remove(),5500);close.addEventListener('click',()=>clearTimeout(handle),{once:true});
+}
 function error(e){toast(e?.message||'Unexpected error. Please retry.',true);console.error(e);}
 function upsert(key,item,idKey){const arr=S.ws[key],i=arr.findIndex(x=>x[idKey]===item[idKey]);if(i>=0)arr[i]={...arr[i],...item};else arr.unshift(item);cacheWorkspace();}
 function removeLocal(key,id,idKey){S.ws[key]=S.ws[key].filter(x=>x[idKey]!==id);cacheWorkspace();}
@@ -90,7 +339,7 @@ function viewSettings(){const st=S.ws.settings||{};return `${title('Settings & P
 <section class="card settings-card"><h3>Import, export & backup</h3><p>Own your knowledge. Export notes or restore a backup to a new collection.</p><div class="form-actions"><button class="btn btn-soft" data-act="export-json">${ico('download',14)} Export JSON</button><button class="btn" data-act="export-md">${ico('download',14)} Export Markdown</button><button class="btn" data-act="export-txt">${ico('download',14)} Export TXT</button></div><div style="border-top:1px solid #edf3fb;margin:21px 0"></div><div class="form-row"><label for="backup-file">Restore .json backup or import a .md note</label><input type="file" id="backup-file" accept=".json,.md,.markdown,application/json,text/markdown" class="form-input"></div><button class="btn btn-soft" data-act="import-file">${ico('refresh',14)} Import notes</button><p style="color:#a3b4c9;font-size:10px;margin:15px 0 0">Imports create new IDs and do not overwrite existing notes. Google Apps Script and Sheets quotas apply.</p></section></div>`;}
 // Small modal system. All submitted values are read from native form controls.
 function modalForm(titleText,fields,options={}){return new Promise(resolve=>{const d=$('#modal'),inner=$('#modal-inner'),footer=$('#modal-footer');$('#modal-title').textContent=titleText;
-inner.innerHTML=`<p class="modal-desc">${esc(options.description||'Make your changes below. They will be saved to your workspace.')}</p><form id="modal-form">${fields.map(f=>{const id='mf-'+f.name,label=`<label for="${id}">${esc(f.label||f.name)}</label>`;let control='';if(f.type==='select')control=`<select class="form-input" id="${id}" name="${esc(f.name)}" ${f.required?'required':''}>${(f.options||[]).map(o=>`<option value="${esc(o.value)}" ${String(o.value)===String(f.value||'')?'selected':''}>${esc(o.label)}</option>`).join('')}</select>`;else if(f.type==='textarea')control=`<textarea class="form-input" id="${id}" name="${esc(f.name)}" maxlength="${f.maxlength||800}" ${f.required?'required':''}>${esc(f.value||'')}</textarea>`;else control=`<input class="form-input" id="${id}" name="${esc(f.name)}" type="${f.type||'text'}" value="${esc(f.value||'')}" ${f.required?'required':''} ${f.maxlength?`maxlength="${f.maxlength}"`:''} placeholder="${esc(f.placeholder||'')}">`;return `<div class="form-row">${label}${control}</div>`;}).join('')}</form>`;
+inner.innerHTML=`<p class="modal-desc">${esc(options.description||'Make your changes below. They will be saved to your workspace.')}</p><form id="modal-form"><div class="finora-form-grid">${fields.map(f=>{const id='mf-'+f.name,label=`<label for="${id}">${esc(f.label||f.name)}</label>`;let control='';if(f.type==='select')control=`<select class="form-input" id="${id}" name="${esc(f.name)}" ${f.required?'required':''}>${(f.options||[]).map(o=>`<option value="${esc(o.value)}" ${String(o.value)===String(f.value||'')?'selected':''}>${esc(o.label)}</option>`).join('')}</select>`;else if(f.type==='textarea')control=`<textarea class="form-input" id="${id}" name="${esc(f.name)}" maxlength="${f.maxlength||800}" ${f.required?'required':''}>${esc(f.value||'')}</textarea>`;else control=`<input class="form-input" id="${id}" name="${esc(f.name)}" type="${f.type||'text'}" value="${esc(f.value||'')}" ${f.required?'required':''} ${f.maxlength?`maxlength="${f.maxlength}"`:''} placeholder="${esc(f.placeholder||'')}">`;return `<div class="form-row">${label}${control}</div>`;}).join('')}</div></form>`;
 footer.innerHTML=`<button class="btn" type="button" id="modal-cancel">Cancel</button><button class="btn btn-primary" type="submit" form="modal-form">${esc(options.submit||'Save changes')}</button>`;
 const finish=value=>{d.close();resolve(value);};$('#modal-cancel').onclick=()=>finish(null);$('#modal-close').onclick=()=>finish(null);const cancel=()=>{d.removeEventListener('cancel',cancel);resolve(null);};d.addEventListener('cancel',cancel,{once:true});d.addEventListener('close',()=>d.removeEventListener('cancel',cancel),{once:true});$('#modal-form').onsubmit=e=>{e.preventDefault();const data=Object.fromEntries(new FormData(e.target));finish(data);};d.showModal();const f=$('#modal-form input,#modal-form select,#modal-form textarea');f?.focus();});}
 function confirmBox(titleText,description,danger=false){return new Promise(resolve=>{const d=$('#modal');$('#modal-title').textContent=titleText;$('#modal-inner').innerHTML=`<p class="modal-desc" style="font-size:12px;margin:5px 0 10px">${esc(description)}</p>`;$('#modal-footer').innerHTML=`<button class="btn" id="modal-no">Cancel</button><button class="btn ${danger?'btn-danger':'btn-primary'}" id="modal-yes">${danger?'Yes, continue':'Confirm'}</button>`;const finish=v=>{d.close();resolve(v);};$('#modal-close').onclick=()=>finish(false);$('#modal-no').onclick=()=>finish(false);$('#modal-yes').onclick=()=>finish(true);d.addEventListener('cancel',()=>resolve(false),{once:true});d.showModal();});}
@@ -170,7 +419,13 @@ async function cacheWorkspace(){if(!S.user)return;const snapshot={...S.ws,activi
 function cacheNote(n){if(S.ws.settings.offlineCache)localSet('note:'+S.user.user_id+':'+n.note_id,n);}
 async function readCachedNote(id){return localGet('note:'+S.user.user_id+':'+id);}
 async function clearLocalData(){if(!S.user)return;await localDelete('workspace:'+S.user.user_id);for(const n of S.ws.notes)await localDelete('note:'+S.user.user_id+':'+n.note_id);}
-async function refreshWorkspace(){const fresh=await API('getWorkspace');S.ws=fresh;S.ws.settings=S.ws.settings||{};await cacheWorkspace();}
+async function refreshWorkspace(){
+ const started=performance.now();const fresh=await API('getWorkspace');
+ if(fresh.user)S.user=fresh.user;delete fresh.user;
+ S.ws=fresh;S.ws.settings=S.ws.settings||{};
+ await cacheWorkspace();
+ window.AZURE?.Perf?.mark('Workspace fresh data',performance.now()-started,{notes:S.ws.notes.length,categoryCount:S.ws.categories.length});
+}
 async function exportAll(format){try{toast('Preparing your export…');let offset=0,notes=[],snapshot={format:'azurenotes-backup-v1',exportedAt:new Date().toISOString(),categories:[],chapters:[],subchapters:[],tags:[],notes:[]};let guard=0;do{const page=await API('exportData',{offset,limit:20});if(offset===0){snapshot.categories=page.categories;snapshot.chapters=page.chapters;snapshot.subchapters=page.subchapters;snapshot.tags=page.tags;}notes.push(...page.items);offset=page.nextOffset;guard++;if(guard>250)throw new Error('Export exceeds 5,000 records. Export smaller collections.');}while(offset!==null);snapshot.notes=notes;const filename='azurenotes-backup-'+new Date().toISOString().slice(0,10);if(format==='json')window.AZURE.Utils.download(filename+'.json',JSON.stringify(snapshot,null,2),'application/json');else if(format==='md')window.AZURE.Utils.download(filename+'.md',notes.map(n=>'# '+n.title+'\n\n'+n.content+'\n\n---\n\n').join(''),'text/markdown');else window.AZURE.Utils.download(filename+'.txt',notes.map(n=>n.title+'\n'+n.content.replace(/[\*_~#>`]/g,'')+'\n\n').join(''),'text/plain');toast(`Exported ${notes.length} notes as ${format.toUpperCase()}.`);}catch(e){error(e);}}
 async function importFile(){const file=$('#backup-file')?.files[0];if(!file)return toast('Choose a JSON or Markdown file first.',true);if(file.size>20*1024*1024)return toast('File is too large. Maximum import size is 20 MB.',true);try{const content=await file.text();if(/\.md|\.markdown$/i.test(file.name)){if(!cats().length){toast('Create a category before importing Markdown.',true);return;}const loc=await locationForm({categoryId:cats()[0].category_id},{title:'Where should this note be imported?'});if(!loc)return;const created=await API('importData',{notes:[{title:file.name.replace(/\.(md|markdown)$/i,''),content,...loc}]});created.created.forEach(n=>upsert('notes',n,'note_id'));render();toast('Markdown note imported.');return;}
 const parsed=JSON.parse(content);const items=Array.isArray(parsed)?parsed:Array.isArray(parsed.notes)?parsed.notes:Array.isArray(parsed.items)?parsed.items:[parsed];if(!items.length)throw new Error('Backup has no notes.');if(items.length>1500)throw new Error('Import up to 1,500 notes at a time.');if(!await confirmBox('Import backup?',`${items.length} notes will be imported with newly generated IDs. Existing notes are not overwritten.`))return;
@@ -192,9 +447,8 @@ function openSearch(){const d=$('#search-dialog');if(!d.open)d.showModal();const
 const delayedSearch=windowDebounce(()=>updateGlobalSearch(),260);
 function windowDebounce(fn,delay){let timer;return (...args)=>{clearTimeout(timer);timer=setTimeout(()=>fn(...args),delay);};}
 async function navigate(route,options={}){if(!ROUTES.some(r=>r[0]===route))route='overview';if(S.draft?.dirty&&route!=='notes'){const okay=await saveCurrent();if(!okay){toast('Finish saving or copy your current draft before navigating.',true);return;}}
-if(route==='categories'&&(!S.ws.categories.some(c=>c.status!=='active'))){try{const list=await API('listCategories');S.ws.categories=list;}catch(e){error(e);}}
-if(route==='chapters'){try{const list=await API('listChapters');S.ws.chapters=list;const subs=await API('listSubchapters');S.ws.subchapters=subs;}catch(e){error(e);}}
-S.route=route;if(!options.noHash)history.pushState({},'','#'+route);render();}
+// Hydrated metadata is already present: switching routes must not re-fetch all Sheets.
+ const navStart=performance.now();S.route=route;if(!options.noHash)history.pushState({},'','#'+route);render();window.AZURE?.Perf?.mark('Route '+route,performance.now()-navStart);}
 async function goCategory(id){if(S.draft?.dirty&&!await saveCurrent())return;if($('#search-dialog')?.open)$('#search-dialog').close();S.categoryFilter=id;S.chapterFilter='';S.subchapterFilter='';S.tagFilter=null;S.filter='';S.selected=null;S.note=null;S.draft=null;await navigate('notes');}
 async function goChapter(id){if(S.draft?.dirty&&!await saveCurrent())return;const ch=byId(S.ws.chapters,id,'chapter_id');if(!ch)return;S.categoryFilter=ch.category_id;S.chapterFilter=id;S.subchapterFilter='';S.tagFilter=null;S.filter='';S.selected=null;S.note=null;S.draft=null;await navigate('notes');}
 async function goSubchapter(id){if(S.draft?.dirty&&!await saveCurrent())return;const s=byId(S.ws.subchapters,id,'subchapter_id');if(!s)return;const ch=byId(S.ws.chapters,s.chapter_id,'chapter_id');S.categoryFilter=ch.category_id;S.chapterFilter=ch.chapter_id;S.subchapterFilter=id;S.tagFilter=null;S.selected=null;S.note=null;S.draft=null;S.filter='';await navigate('notes');}
@@ -237,10 +491,10 @@ async function onDrop(e){const target=e.target.closest('[data-cat-drag],[data-dr
 if(data.type==='category'&&target.dataset.catDrag&&data.id!==target.dataset.catDrag){const arr=cats().map(c=>c.category_id),from=arr.indexOf(data.id),to=arr.indexOf(target.dataset.catDrag);if(from<0||to<0)return;arr.splice(to,0,arr.splice(from,1)[0]);try{await API('reorderCategories',{ids:arr});arr.forEach((id,i)=>{const c=byId(S.ws.categories,id,'category_id');c.sort_order=i+1;});cacheWorkspace();render();toast('Category order updated.');}catch(e){error(e);}}
 if(data.type==='note'&&target.dataset.drop){const note=byId(S.ws.notes,data.id);if(!note)return;const loc={categoryId:target.dataset.cat,chapterId:target.dataset.ch||'',subchapterId:target.dataset.sub||''};try{const r=await API('moveNote',{id:data.id,revision:note.revision,...loc});upsert('notes',r,'note_id');render();toast('Note moved to new location.');}catch(e){error(e);}}}
 async function onHistory(){const path=decodeURIComponent(location.hash.replace(/^#/,'')).split('/');const route=ROUTES.some(x=>x[0]===path[0])?path[0]:'overview';if(route==='notes'&&path[1])await openNote(path[1],{fromHistory:true});else await navigate(route,{noHash:true});}
-async function boot(){const auth=window.AZURE?.Auth.get();if(!auth){location.replace('index.html');return;}
-S.user=auth.user;S.loading=false;S.route=location.hash.slice(1).split('/')[0]||'overview';if(!ROUTES.some(r=>r[0]===S.route))S.route='overview';const cached=await localGet('workspace:'+S.user.user_id);if(cached){S.ws={...S.ws,...cached};render();}else render();
+async function boot(){const bootStarted=performance.now();const auth=window.AZURE?.Auth.get();if(!auth){location.replace('index.html');return;}
+S.user=auth.user;S.loading=false;S.route=location.hash.slice(1).split('/')[0]||'overview';if(!ROUTES.some(r=>r[0]===S.route))S.route='overview';const cached=await localGet('workspace:'+S.user.user_id);if(cached){S.ws={...S.ws,...cached};render();}else render();window.AZURE?.Perf?.mark('Workspace shell rendered',performance.now()-bootStarted,{cached:!!cached});
 window.AZURE.Auth.onExpired(()=>{backupDraft();toast('Your session expired. Please sign in again.',true);setTimeout(()=>location.replace('index.html'),1500);});
-try{const me=await API('getCurrentUser');S.user=me;await refreshWorkspace();S.offline=false;document.body.classList.toggle('compact',S.ws.settings.density==='compact');if(location.hash.startsWith('#notes/')){const id=decodeURIComponent(location.hash.slice(7));await openNote(id,{fromHistory:true});}else render();}
+try{await refreshWorkspace();S.offline=false;document.body.classList.toggle('compact',S.ws.settings.density==='compact');if(location.hash.startsWith('#notes/')){const id=decodeURIComponent(location.hash.slice(7));await openNote(id,{fromHistory:true});}else render();}
 catch(e){S.offline=true;if(e.code==='UNAUTHORIZED'){location.replace('index.html');return;}if(!cached){$('#content').innerHTML=`<div class="card pad">${empty('Connection unavailable','Please check config.js, your Apps Script deployment and allowed origins. Your account was not loaded.') }<div style="text-align:center;margin-bottom:25px"><button class="btn btn-primary" id="retry-connect">Retry connection</button></div></div>`;$('#retry-connect').onclick=()=>location.reload();}else{toast('Server unavailable. Showing cached metadata; edits need a connection.',true);render();}}
 }
 document.addEventListener('DOMContentLoaded',()=>{
