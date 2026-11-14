@@ -3,7 +3,7 @@
   'use strict';
   const CONFIG = Object.freeze({
     APP_NAME: 'Azure Notes',
-    GAS_WEB_APP_URL: 'PASTE_YOUR_GOOGLE_APPS_SCRIPT_EXEC_URL_HERE',
+    GAS_WEB_APP_URL: 'https://script.google.com/macros/s/AKfycbxbwJOWVRC2Jj3YmxKtfypCpaz2P6CRgoiiI1nhu1WelwXs0L1_XL31gyie1_ZGKlF_SA/exec',
     API_TIMEOUT_MS: 35000,
     BRIDGE_TIMEOUT_MS: 18000,
     PBKDF2_ITERATIONS: 310000,
